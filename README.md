@@ -21,7 +21,7 @@ This project focuses on searching for efficient deep neural architectures (FPGAN
 - FPGANet_L25 emerged as a standout, achieving a top-1 accuracy of 79.12% on ILSVRC2012 within 25ms of inference time.
 - The proposed approach outperformed established networks like EfficientNet-B0, ResNet-50, and MobileNet-V3 in both inference latency (measured on FPGA) and accuracy.
 - A comprehensive latency table was developed to aid latency estimation, and an accuracy predictor was used to filter out the best performing networks.
-- ![res](https://github.com/FPGA-Vision/FONAS/assets/50907565/e37a749d-6905-4a5b-b943-37ee1592b7f8)
-- ![image](https://github.com/FPGA-Vision/FONAS/assets/50907565/18099282-9379-4a48-a134-66063a0d7524)
-- ![image](https://github.com/FPGA-Vision/FONAS/assets/50907565/959de06d-11bd-4948-a786-871d683da10b)
+![res](https://github.com/FPGA-Vision/FONAS/assets/50907565/e37a749d-6905-4a5b-b943-37ee1592b7f8)
+![image](https://github.com/FPGA-Vision/FONAS/assets/50907565/18099282-9379-4a48-a134-66063a0d7524)
+![image](https://github.com/FPGA-Vision/FONAS/assets/50907565/959de06d-11bd-4948-a786-871d683da10b)
 
