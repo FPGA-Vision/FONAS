@@ -1,7 +1,7 @@
 # FONAS: FPGA Optimized Neural Architecture Search for Hardware Efficiency through Evolutionary Search
 
 ## Summary
-This project focuses on searching for efficient deep neural architectures (FPGANets) tailored for image classification tasks while adhering to constraints such as arithmetic intensity and latency for FPGA deployment. Our proposed FPGANets outperform existing networks in terms of both latency and accuracy on the ImageNet-1k dataset.
+This project focuses on searching for efficient deep neural architectures (FPGANets) tailored for image classification tasks while adhering to constraints such as arithmetic intensity and latency for FPGA deployment. Our proposed FPGANets outperform existing networks in terms of both latency and accuracy on the ImageNet-1k dataset. The project also received a research grant from LogicTronix (AMD-Xilinx Partner).
 
 ## Project Work and Methodologies
 - **Compressing EfficientNet-V2**: Implementation of channel pruning techniques to reduce the model size and enhance inference speed for FPGA deployment.
