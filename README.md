@@ -15,14 +15,13 @@ This project focuses on searching for efficient deep neural architectures (FPGAN
 
 ## Key Results and Findings
 - **Compressed EfficientNet-V2**: Achieved an 88% reduction in channel count resulting in a model that is 14 times smaller, 2.5 times faster in inference speed, and has significantly fewer parameters and MAC operations.
-- **Latency Dataset**: Constructed a latency dataset for Ultra96v2 FPGA boards.
-- **Latency-aware Networks**: Discovered through an evolutionary search process, networks optimized for latency.
-- **Improved Performance**: The searched architectures (FPGANets) demonstrate superior performance in terms of the trade-off between latency and accuracy compared to existing architectures.
+- A comprehensive latency table was developed to aid latency estimation, and an accuracy predictor was used to filter out the best performing networks.
+- Over 40 million architectures within the MobileNet-V3 search space were explored, targeting the Ultra96-V2 MPSoC board.
+- An evolutionary search process was employed to discover seven architectures varying in size and latency.
+- FPGANet_L25 emerged as a standout, achieving a top-1 accuracy of 79.12% on ILSVRC2012 within 25ms of inference time.
+- The proposed approach outperformed established networks like EfficientNet-B0, ResNet-50, and MobileNet-V3 in both inference latency (measured on FPGA) and accuracy.
+- A comprehensive latency table was developed to aid latency estimation, and an accuracy predictor was used to filter out the best performing networks.
 - ![res](https://github.com/FPGA-Vision/FONAS/assets/50907565/e37a749d-6905-4a5b-b943-37ee1592b7f8)
+![image](https://github.com/FPGA-Vision/FONAS/assets/50907565/18099282-9379-4a48-a134-66063a0d7524)
+![image](https://github.com/FPGA-Vision/FONAS/assets/50907565/959de06d-11bd-4948-a786-871d683da10b)
 
-## Future Directions
-- **Integration Challenges**: Seamless implementation of optimized architectures on FPGA platforms.
-- **Validation Process**: Verification of the effectiveness of optimized architectures on Ultra96-v2 FPGA boards.
-- **Framework Refinement**: Continuously enhancing the HW-NAS pipeline for improved efficiency and real-time performance.
-
-This project aims to significantly contribute to the field of image classification by demonstrating the benefits of HW-NAS and FPGA-based acceleration in achieving superior efficiency and real-time performance metrics.
